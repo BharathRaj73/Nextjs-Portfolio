@@ -7,7 +7,7 @@ import ContactImg from "../components/contact.json";
 import Lottie from "lottie-react";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -95,4 +95,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
