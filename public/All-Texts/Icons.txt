@@ -461,4 +461,3 @@ export const LinkArrow = ({ className, ...rest }) => (
     />
   </svg>
 );
-
