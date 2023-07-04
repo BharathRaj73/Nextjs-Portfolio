@@ -61,8 +61,8 @@ const Education = () => {
           <Details
             type="Secondary Education"
             time="2018"
-            place="Garden City Public High School"
-            info="Relevant courses included Mathematics , Science , Social SCience . "
+            place="Garden City Public School"
+            info="Relevant courses included Mathematics , Science , Social Science . "
           />
         </ul>
       </div>

@@ -5,10 +5,12 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Project1 from "../../public/images/projects/food.png";
-import Project2 from "../../public/images/projects/ecommerce.png";
-import Project3 from "../../public/images/projects/netflix.png";
-import Project4 from "../../public/images/projects/videochat.png";
+import Project3 from "../../public/images/projects/food.png";
+import Project1 from "../../public/images/projects/fiver.png";
+import Project2 from "../../public/images/projects/Tours&Travels.png";
+import Project4 from "../../public/images/projects/ecommerce.png";
+import Project6 from "../../public/images/projects/netflix.png";
+import Project5 from "../../public/images/projects/videochat.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -131,12 +133,34 @@ const projects = () => {
             className="mb-16 lg:text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 
-          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="grid  grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
-                title="Food Delivery Application"
+                title="Fiverr Clone"
                 img={Project1}
-                summary="A feature-rich Food Delivery application using React, Tailwind CSS, React Router and Firebase. It shows details of different food categories and user can easily place the order. "
+                summary="Fiverr is an online marketplace where individuals and businesses can buy and sell a wide variety of digital services.On Fiverr, sellers create profiles and list the services they provide. Buyers can browse through the listings, compare prices, and select a seller based on their reviews, ratings. Also Fiverr offers a secure payment system where buyers make payment for the services they purchase. "
+                link="https://bharathraj73.github.io/Food_Delivery/"
+                github="https://github.com/BharathRaj73/Fiverr"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Tours and Travels"
+                img={Project2}
+                summary="Travel World is an innovative web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to provide users with an exceptional and seamless travel booking experience. The platform offers a wide range of featured tours and enables users to book their dream vacations. It incorporates essential functionalities such as user registration, login, and other convenient features to enhance the overall user experience."
+                link="https://tours-and-travels-api.vercel.app/"
+                github="https://github.com/BharathRaj73/Tours-and-Travelsy"
+                type="Featured Project"
+              />
+            </div>
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Food Application"
+                img={Project3}
+                summary="A feature-rich Food application using React, Tailwind CSS, React Router and Firebase. It shows details of different food categories and user can easily place the order. "
                 link="https://bharathraj73.github.io/Food_Delivery/"
                 github="https://github.com/BharathRaj73/Food_Delivery"
                 type="Featured Project"
@@ -146,7 +170,7 @@ const projects = () => {
             <div className="col-span-6 md:col-span-12">
               <Project
                 title="E-Commerce Website"
-                img={Project2}
+                img={Project4}
                 link="/"
                 github="https://github.com/BharathRaj73/Ecommerce"
                 type="Project"
@@ -156,7 +180,7 @@ const projects = () => {
             <div className="col-span-6 md:col-span-12">
               <Project
                 title="VideoChat Application"
-                img={Project4}
+                img={Project5}
                 link="https://video-chat-jhr02z9gy-bharathraj73.vercel.app/"
                 github="https://github.com/BharathRaj73/VideoChat-Application"
                 type="Project"
@@ -166,7 +190,7 @@ const projects = () => {
             <div className="col-span-12 ">
               <FeaturedProject
                 title="Netflix Application"
-                img={Project3}
+                img={Project6}
                 summary="A Netflix application using React, Tailwind CSS, React Router, Context API and Firebase offering a wide variety of TV shows, movies, anime, documentaries and more."
                 link="https://bharathraj73.github.io/Netflix/"
                 github="https://github.com/BharathRaj73/Netflix"
