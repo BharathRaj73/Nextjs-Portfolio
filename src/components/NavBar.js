@@ -109,7 +109,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/bharath-raj-541267225/"
+            href="https://www.linkedin.com/in/bharathraj7302/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
